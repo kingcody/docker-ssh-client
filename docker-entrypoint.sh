@@ -20,4 +20,4 @@ if [[ ! -z "$SSH_KNOWN_HOSTS" ]]; then
 fi
 
 # Execute the container command
-exec $@
+exec "$@"
